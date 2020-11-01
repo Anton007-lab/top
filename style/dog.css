@@ -1,0 +1,71 @@
+@import "reset.css";
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+canvas {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  display: block;
+}
+
+.dog {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin: 100px;
+  z-index: 1;
+  background: #FFD600;
+}
+
+.dog:hover {
+    background: #FFD600;
+    border-radius: 20px;
+}
+
+.cat {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin: 300px;
+  z-index: 1;
+  border-radius: 200px;
+  background: #71B7FF;
+}
+
+.cat:hover {
+    background: #FFD600;
+    width: 800px;
+    height: 100px;
+    border-radius: 0px;
+}
+.circle {
+width: 100px;
+height: 100px;
+background: #FF0000;
+border-radius: 500px;
+margin-left: 1000px;
+}
+.circle:hover {
+  background-color:#000;
+  width: 100px;
+  height: 800px;
+  border-radius: 200px;
+}
+.d11 {
+height: 0;
+width: 200px;
+border-bottom: 200px solid #FFE344;
+border-left: 100px solid transparent;
+border-right: 100px solid transparent;
+margin-left: 1500px;
+}
+.d11:hover {
+  background-color:#00ff00;
+  width: 100px;
+  height: 100px;
+  border-radius: 500px;
+}
